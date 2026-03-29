@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Orbital — Türk Uydulari & Uzay Çöpü İzleme</title>
+  <title>K.O.R.U. — Türk Uyduları & Uzay Çöpü İzleme</title>
   <style>
     :root {
       --bg-deep: #05060a;
@@ -68,6 +68,34 @@
     .panel--right {
       border-left: 1px solid var(--border);
       padding: 1rem 0.85rem;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 900;
+      letter-spacing: 0.15em;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      display: flex;
+      align-items: center;
+      position: relative;
+      filter: drop-shadow(0 0 8px rgba(77, 159, 255, 0.3));
+    }
+
+    .logo::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 3px;
+      background: var(--accent);
+      border-radius: 2px;
+      box-shadow: 0 0 10px var(--accent);
     }
 
     .panel__title {
@@ -608,6 +636,7 @@
 <body>
   <div class="app">
     <aside class="panel panel--left">
+      <div class="logo">K.O.R.U.</div>
       <div class="panel__title">Görev seçimi</div>
       <div class="panel__head">Türk uyduları</div>
       <div id="sat-list" class="sat-list" aria-label="Uydu listesi"></div>
