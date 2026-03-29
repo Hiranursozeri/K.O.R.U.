@@ -16,5 +16,4 @@ Makine öğrenmesi modelimiz, risk durumunu 3 ana senaryoda değerlendirir:
 * **Veri Kaynakları:** ESA, CelesTrak, Space-Track.org, NOAA
 * **Arayüz:** Kullanıcı dostu dinamik web paneli (Uydu/çöp filtreleme, yörünge seçimi)
 
-
-hackathon3 klasörünün içinde terminal açarak "python -m http.server 8000" komutunu çalıştırın. Ardından tarayıcıda "http://localhost:8000/index.html" URl'sinden siteye erişebilirsiniz.
+ klasörünün içinde terminal açarak "python -m http.server 8000" komutunu çalıştırın. Ardından tarayıcıda "http://localhost:8000/index.html" URl'sinden siteye erişebilirsiniz.
