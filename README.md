@@ -1,4 +1,4 @@
-# 🛰️ K.O.R.U. (Kovaryans Odaklo Risk Uyarısı)
+# 🛰️ K.O.R.U. (Kovaryans Odaklı Risk Uyarısı)
 
 Türk uydularını uzay çöplerinden korumak için tasarlanmış, XGBoost destekli yörünge ve çarpışma önleme sistemi.
 
