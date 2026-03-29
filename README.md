@@ -17,3 +17,4 @@ Makine öğrenmesi modelimiz, risk durumunu 3 ana senaryoda değerlendirir:
 * **Arayüz:** Kullanıcı dostu dinamik web paneli (Uydu/çöp filtreleme, yörünge seçimi)
 
  klasörünün içinde terminal açarak "python -m http.server 8000" komutunu çalıştırın. Ardından tarayıcıda "http://localhost:8000/index.html" URl'sinden siteye erişebilirsiniz.
+ ⚠️ Not: Windows ortamında klonlarken klasör adındaki nokta sebebiyle hata alırsanız, lütfen git clone <link> KORU şeklinde hedef klasör belirterek klonlayınız.
